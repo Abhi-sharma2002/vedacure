@@ -1,0 +1,33 @@
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 150px;
+    width: 250px;
+  }
+
+.category h5 {
+    font-weight: bold;
+
+  }
+
+.category p {
+    font-weight: 200;
+    gap: 2;
+    text-transform: uppercase;
+
+}
+a{
+    color: var(--color-white);
+    }
+    
+  
+
+
+
+
+
+
+
+

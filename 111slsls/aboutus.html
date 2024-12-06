@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles4.css">
+    <title>About Us</title>
+</head>
+<body>
+    <section id="about">
+        <h1 class="fade-in">Who We Are</h1>
+        <div class="story slide-in">
+            <h2>Our Story</h2>
+            <p>We started our journey in 2010 with a passion for innovation...</p>
+        </div>
+        <div class="values">
+            <h2>Our Values</h2>
+            <div class="value-icon" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)">
+                <i class="fas fa-heart"></i>
+                <p>Integrity</p>
+            </div>
+            <div class="value-icon" onmouseover="hoverEffect(this)" onmouseout="resetEffect(this)">
+                <i class="fas fa-lightbulb"></i>
+                <p>Innovation</p>
+            </div>
+        </div>
+        <div class="team">
+            <h2>Meet the Team</h2>
+            <div class="team-member" onclick="showBio('John Doe')">
+                <img src="member1.jpg" alt="John Doe">
+                <p>John Doe</p>
+            </div>
+            <div class="team-member" onclick="showBio('Jane Smith')">
+                <img src="member2.jpg" alt="Jane Smith">
+                <p>Jane Smith</p>
+            </div>
+        </div>
+        <div id="bio-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeBio()">&times;</span>
+                <p id="bio-text"></p>
+            </div>
+        </div>
+        <div class="cta pulse">
+            <h2>Join Us!</h2>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
